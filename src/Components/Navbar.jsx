@@ -6,10 +6,10 @@ export default function Navbar() {
   return (
     <Nav>
       <div className="title">
-        <h4>Olá, investidor!</h4>
+        <h4>Hi, investor!</h4>
         <h1>
-          Bem-vindo ao
-          <span>Rocketbots Dashboard </span>
+          Welcome to
+          <span>TaferStocks Dashboard </span>
         </h1>
       </div>
 

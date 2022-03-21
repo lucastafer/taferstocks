@@ -98,7 +98,7 @@ export default function Patrimony() {
     <Section>
       <div className="top">
         <div className="info">
-          <h5>Meu Patrimônio em Fevereiro</h5>
+          <h5>My Patrimony in February</h5>
           <h1>R$ 7.380,80</h1>
           <div className="growth">
             <span>+5.44%</span>

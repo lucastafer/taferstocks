@@ -274,7 +274,7 @@ export default function Candlestick() {
   return (
     <Section>
       <div className="title">
-        <h2>Gráfico dos Ativos</h2>
+        <h2>Assets Graphic</h2>
       </div>
       <br />
       <ReactApexChart

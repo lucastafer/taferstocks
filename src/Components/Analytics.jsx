@@ -44,7 +44,7 @@ export default function Analytics() {
           <img src={goldLogo} alt="Connection failed." />
         </div>
         <div className="content">
-          <h5>OURO</h5>
+          <h5>GOLD</h5>
           <h2>R$ 316,67</h2>
         </div>
       </div>

@@ -9,15 +9,15 @@ export default function MainNews() {
   const news = [
     {
       icon: <BiWorld />,
-      text: "Avanço da guerra, alta das commodities, queda do dólar; o que marcou a semana",
+      text: "Russia-Ukraine war: what we know on day 14 of the Russian invasion",
     },
     {
       icon: <MdWaterDrop />,
-      text: "Petróleo toca maior preço em 10 anos antes de negociações entre Rússia e Ucrânia",
+      text: "Ukraine conflict: Petrol at fresh record as oil and gas prices soar",
     },
     {
       icon: <MdLocalHospital />,
-      text: "Com inflação em alta, Raia Drogasil (RADL3) sai do time de recomendadas do BB-BI",
+      text: "With high inflation, Raia Drogasil (RADL3) get out of BB-BI recommended team.",
     },
   ];
   return (

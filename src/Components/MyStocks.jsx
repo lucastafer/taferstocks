@@ -55,7 +55,7 @@ export default function MyStocks() {
   return (
     <Section>
       <div className="title">
-        <h2>Meus Ativos</h2>
+        <h2>My Assets</h2>
       </div>
       <div className="transactions">
         {transactions.map((transaction) => {

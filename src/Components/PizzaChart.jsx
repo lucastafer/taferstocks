@@ -7,7 +7,7 @@ export default function PizzaChart() {
   return (
     <Section>
       <div className="title">
-        <h2>Distribuição da carteira</h2>
+        <h2>Wallet Distribution</h2>
       </div>
       <div className="piechart-div">
         <Chart

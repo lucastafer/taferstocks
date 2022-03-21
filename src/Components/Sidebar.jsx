@@ -25,27 +25,27 @@ export default function Sidebar() {
                   steps={[
                     "",
                     200,
-                    "RocketBots 🚀",
+                    "TaferStocks 🚀",
                     1000,
                     "",
                     200,
-                    "RocketBots 💰",
+                    "TaferStocks 💰",
                     1000,
                     "",
                     200,
-                    "RocketBots 💵",
+                    "TaferStocks 💵",
                     1000,
                     "",
                     200,
-                    "RocketBots 💶",
+                    "TaferStocks 💶",
                     1000,
                     "",
                     200,
-                    "RocketBots 💴",
+                    "TaferStocks 💴",
                     1000,
                     "",
                     200,
-                    "RocketBots 🪙",
+                    "TaferStocks 🪙",
                     1000,
                   ]}
                 />
@@ -71,7 +71,7 @@ export default function Sidebar() {
               >
                 <a href="#">
                   <FaRegMoneyBillAlt />
-                  <span>Meus Ativos</span>
+                  <span>My Assets</span>
                 </a>
               </li>{" "}
               <li
@@ -80,7 +80,7 @@ export default function Sidebar() {
               >
                 <a href="#">
                   <AiOutlineStock />
-                  <span>Mercado</span>
+                  <span>Market</span>
                 </a>
               </li>{" "}
               <li
@@ -89,7 +89,7 @@ export default function Sidebar() {
               >
                 <a href="#">
                   <BsNewspaper />
-                  <span>Notícias</span>
+                  <span>News</span>
                 </a>
               </li>{" "}
               <li
@@ -98,7 +98,7 @@ export default function Sidebar() {
               >
                 <a href="#">
                   <MdOutlineHelp />
-                  <span>Ajuda</span>
+                  <span>Help</span>
                 </a>
               </li>
               <li
@@ -107,7 +107,7 @@ export default function Sidebar() {
               >
                 <a href="#">
                   <IoSettings />
-                  <span>Configurações</span>
+                  <span>Settings</span>
                 </a>
               </li>
             </ul>
