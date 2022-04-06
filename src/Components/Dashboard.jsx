@@ -8,6 +8,7 @@ import Navbar from "./Navbar";
 import PizzaChart from "./PizzaChart";
 import MyStocks from "./MyStocks";
 import Candlestick from "./CandleStick";
+import MyExpenses from "./MyExpenses/MyExpenses";
 
 export default function Dashboard() {
   return (

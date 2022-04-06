@@ -1,15 +1,10 @@
-import React from 'react'
-import styled from 'styled-components';
-import Dashboard from './Components/Dashboard';
-import Sidebar from './Components/Sidebar';
+import React, { Fragment } from "react";
+import RoutesFunction from "./routes";
 
 export default function App() {
   return (
-    <Div>
-      <Sidebar/>
-      <Dashboard/>
-    </Div>
-  )
+    <Fragment>
+      <RoutesFunction />
+    </Fragment>
+  );
 }
-
-const Div = styled.div``;

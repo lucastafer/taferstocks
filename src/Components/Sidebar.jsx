@@ -4,7 +4,7 @@ import Typical from "react-typical";
 import { MdSpaceDashboard } from "react-icons/md";
 import { FaRegMoneyBillAlt } from "react-icons/fa";
 import { AiOutlineStock } from "react-icons/ai";
-import { BsNewspaper } from "react-icons/bs";
+import { BsNewspaper, BsPiggyBank } from "react-icons/bs";
 import { MdOutlineHelp } from "react-icons/md";
 import { IoSettings } from "react-icons/io5";
 import { FiLogOut } from "react-icons/fi";
@@ -78,14 +78,23 @@ export default function Sidebar() {
                 onClick={() => setCurrentLink(3)}
                 className={currentLink === 3 ? "active" : ""}
               >
+                <a href="/myexpenses">
+                  <BsPiggyBank />
+                  <span>My Expenses</span>
+                </a>
+              </li>{" "}
+              <li
+                onClick={() => setCurrentLink(4)}
+                className={currentLink === 4 ? "active" : ""}
+              >
                 <a href="#">
                   <AiOutlineStock />
                   <span>Market</span>
                 </a>
               </li>{" "}
               <li
-                onClick={() => setCurrentLink(4)}
-                className={currentLink === 4 ? "active" : ""}
+                onClick={() => setCurrentLink(5)}
+                className={currentLink === 5 ? "active" : ""}
               >
                 <a href="#">
                   <BsNewspaper />
@@ -94,7 +103,7 @@ export default function Sidebar() {
               </li>{" "}
               <li
                 onClick={() => setCurrentLink(5)}
-                className={currentLink === 5 ? "active" : ""}
+                className={currentLink === 6 ? "active" : ""}
               >
                 <a href="#">
                   <MdOutlineHelp />
@@ -102,8 +111,8 @@ export default function Sidebar() {
                 </a>
               </li>
               <li
-                onClick={() => setCurrentLink(6)}
-                className={currentLink === 6 ? "active" : ""}
+                onClick={() => setCurrentLink(7)}
+                className={currentLink === 7 ? "active" : ""}
               >
                 <a href="#">
                   <IoSettings />

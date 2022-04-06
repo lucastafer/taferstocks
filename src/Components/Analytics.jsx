@@ -63,7 +63,7 @@ const Section = styled.section`
     justify-content: space-evenly;
     align-items: center;
     gap: 1rem;
-    transition: 0.5s ease-in-out;
+    transition: 0.3s ease-in-out;
     &:hover {
       background-color: #2de975;
       color: #000;
